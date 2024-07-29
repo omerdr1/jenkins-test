@@ -3,7 +3,7 @@ FROM nginx:latest
 
 
 # Web sitenizin kaynak dosyalarını Docker imajına kopyala
-COPY src/ /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html
 
 # Docker konteynerı çalıştığında açılacak port numarası
 EXPOSE 80
